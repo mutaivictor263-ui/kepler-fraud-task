@@ -1,0 +1,24 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets and local environment settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated datasets and large raw research data
+environment/data/
+authoring/research/data/
+authoring/research/synthetic_preview/
+authoring/research/synthetic_v2_preview/
+
+# Local test and tooling artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
