@@ -51,7 +51,7 @@ A positive value indicates lower AP in the shifted regime. A negative value indi
 | Random ranking | 0.0260 | 0.0263 | -0.0003 | [-0.0026, 0.0025] | [-0.0042, 0.0035] |
 | Velocity + distance rule | 0.0369 | 0.0446 | -0.0077 | [-0.0122, -0.0034] | [-0.0128, -0.0026] |
 | Logistic regression | 0.3591 | 0.3628 | -0.0036 | [-0.0355, 0.0277] | [-0.0622, 0.0549] |
-| Interaction logistic | 0.3704 | 0.2983 | 0.0722 | [0.0404, 0.1011] | [0.0113, 0.1330] |
+| Interaction logistic | 0.3704 | 0.2983 | 0.0721 | [0.0404, 0.1011] | [0.0113, 0.1330] |
 | Histogram gradient boosting | 0.3490 | 0.2999 | 0.0490 | [0.0171, 0.0777] | [-0.0056, 0.1037] |
 
 Values are rounded; the CSV files retain the underlying numerical precision.
@@ -60,7 +60,7 @@ Values are rounded; the CSV files retain the underlying numerical precision.
 
 ### Interaction logistic
 
-Interaction logistic regression has a mean AP decrease of approximately 0.0722 between the control and shifted regimes. Both the transaction-bootstrap interval and the seed-level t interval exclude zero. This is the clearest evidence in this experiment that its ranking performance deteriorates under the specified synthetic regime shift.
+Interaction logistic regression has a mean AP decrease of approximately 0.0721 between the control and shifted regimes. Both the transaction-bootstrap interval and the seed-level t interval exclude zero. This is the clearest evidence in this experiment that its ranking performance deteriorates under the specified synthetic regime shift.
 
 ### Histogram gradient boosting
 
